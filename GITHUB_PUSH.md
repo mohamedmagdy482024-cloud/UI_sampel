@@ -2,23 +2,11 @@
 
 Repository: **https://github.com/mohamedmagdy482024-cloud/UI_sampel**
 
-## First-Time Setup (only once per machine)
-
-If the project is not a git repository yet, run these commands from the project folder:
-
-```powershell
-cd "D:\New folder\UI_sampel-main"
-
-git init
-git remote add origin https://github.com/mohamedmagdy482024-cloud/UI_sampel.git
-git fetch origin
-git branch -M main
-git reset origin/main
-```
+Git is already initialized and connected to this repository.
 
 ## Push Future Changes
 
-After you edit files, use these commands every time you want to update GitHub:
+After you edit files, run these commands from the project folder:
 
 ```powershell
 cd "D:\New folder\UI_sampel-main"
@@ -30,7 +18,7 @@ git pull origin main --rebase
 git push origin main
 ```
 
-## Quick One-Line Push (after setup)
+## Quick One-Line Push
 
 ```powershell
 cd "D:\New folder\UI_sampel-main"; git add .; git commit -m "Update UI components"; git pull origin main --rebase; git push origin main
@@ -48,3 +36,12 @@ git push origin main
 ```
 
 - If GitHub asks for login, use your GitHub username and a **Personal Access Token** instead of your password.
+
+## First-Time Setup (only if you clone on a new machine)
+
+```powershell
+git clone https://github.com/mohamedmagdy482024-cloud/UI_sampel.git
+cd UI_sampel
+```
+
+Then use the **Push Future Changes** commands above.
